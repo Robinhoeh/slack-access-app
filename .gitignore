@@ -1,0 +1,133 @@
+# ==========================
+# Dependencies
+# ==========================
+node_modules/
+.pnp
+.pnp.js
+
+# ==========================
+# Build Outputs
+# ==========================
+dist/
+dist-ssr/
+build/
+.output/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+
+# ==========================
+# Firebase
+# ==========================
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+database-debug.log
+.firebaserc.local
+
+# Firebase service account keys — never commit these
+*-service-account.json
+serviceAccount*.json
+firebase-adminsdk*.json
+
+# ==========================
+# Vite
+# ==========================
+vite.config.*.timestamp-*
+*.local
+
+# ==========================
+# TypeScript
+# ==========================
+*.tsbuildinfo
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# OS Files
+# ==========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ==========================
+# Editors & IDEs
+# ==========================
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (WebStorm, IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+Session.vim
+
+# Emacs
+*~
+\#*\#
+.#*
+
+# ==========================
+# Testing
+# ==========================
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# ==========================
+# Misc
+# ==========================
+*.pem
+*.key
+*.cert
+tmp/
+temp/
+.cache/
+.parcel-cache/
