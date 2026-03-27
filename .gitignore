@@ -27,6 +27,7 @@ build/
 # Firebase
 # ==========================
 .firebase/
+functions/lib/
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
@@ -120,6 +121,13 @@ coverage/
 .nyc_output/
 cypress/videos/
 cypress/screenshots/
+
+# ==========================
+# AI Tools & Skills
+# ==========================
+.agents/
+.claude/
+skills-lock.json
 
 # ==========================
 # Misc
