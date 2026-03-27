@@ -1,4 +1,5 @@
 import * as admin from "firebase-admin";
+import { FieldValue } from "firebase-admin/firestore";
 
 interface SlackCommandPayload {
   user_id: string;
@@ -26,7 +27,7 @@ export async function handleAccessCommand(
     userName: payload.user_name,
     toolId,
     status: "pending",
-    requestedAt: admin.firestore.FieldValue.serverTimestamp(),
+    requestedAt: FieldValue.serverTimestamp(),
     approvedBy: null,
     approvedAt: null,
   });
